@@ -2,43 +2,91 @@
 
 
 Content Rating React App
-This is a simple React-based application that allows users to like or dislike a piece of content. It uses React class components and state management to track the number of likes and dislikes in real-time.
+
+This is a simple React-based application that allows users to like or dislike a piece of content. It utilizes React class components and state management to track the number of likes and dislikes in real-time.
 
 Features
-Displays a piece of informational content (currently: Conservative Party of Canada policy overview)
+
+
+
+
+
+Displays informational content (currently: Conservative Party of Canada policy overview)
+
+
 
 Interactive Like and Dislike buttons
 
-Realtime counter for each action
 
-Clean and simple layout (customizable via CSS)
+
+Real-time counters for likes and dislikes
+
+
+
+Clean and customizable layout via CSS
 
 Getting Started
+
 Prerequisites
-Node.js and npm must be installed
+
+
+
+
+
+Node.js and npm must be installed on your system.
 
 Installation
-bash
-Copy
-Edit
+
+
+
+
+
+Clone the repository:
+
 git clone https://github.com/your-username/content-rating-app.git
+
+
+
+Navigate to the project directory:
+
 cd content-rating-app
+
+
+
+Install dependencies:
+
 npm install
+
 Running the App
-bash
-Copy
-Edit
+
+
+
+
+
+Start the development server:
+
 npm run dev
-Then open your browser at http://localhost:5173
+
+
+
+Open your browser and visit http://localhost:5173 to view the app.
 
 Usage
-The main interactive component is ContentRating.jsx. It displays content and renders like/dislike buttons with counters. You can easily replace the text content with your own.
+
+The main interactive component is ContentRating.jsx. It displays the content and renders Like/Dislike buttons with real-time counters. To use different content, replace the text within the <p> tag in ContentRating.jsx.
 
 Customization
-To change the content displayed, update the <p> tag inside the ContentRating.jsx file.
 
-To modify styles, edit ContentRating.css.
+
+
+
+
+Content: Update the <p> tag content in ContentRating.jsx to display your desired text.
+
+
+
+Styles: Modify the ContentRating.css file to customize the app's appearance.
 
 License
-This project is licensed under the Apache License 2.0.
-See the LICENSE file for details.
+
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
