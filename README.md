@@ -1,10 +1,10 @@
 # coding-project-template
 
 
-� Content Rating React App
+Content Rating React App
 This is a simple React-based application that allows users to like or dislike a piece of content. It uses React class components and state management to track the number of likes and dislikes in real-time.
 
-�️ Features
+Features
 Displays a piece of informational content (currently: Conservative Party of Canada policy overview)
 
 Interactive Like and Dislike buttons
@@ -13,22 +13,7 @@ Realtime counter for each action
 
 Clean and simple layout (customizable via CSS)
 
-� Project Structure
-css
-Copy
-Edit
-content-rating-app/
-├── src/
-│   ├── Components/
-│   │   └── ContentRating.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── ContentRating.css
-├── public/
-│   └── index.html
-├── package.json
-└── README.md
-� Getting Started
+Getting Started
 Prerequisites
 Node.js and npm must be installed
 
@@ -46,14 +31,14 @@ Edit
 npm run dev
 Then open your browser at http://localhost:5173
 
-� Usage
+Usage
 The main interactive component is ContentRating.jsx. It displays content and renders like/dislike buttons with counters. You can easily replace the text content with your own.
 
-✏️ Customization
+Customization
 To change the content displayed, update the <p> tag inside the ContentRating.jsx file.
 
 To modify styles, edit ContentRating.css.
 
-� License
+License
 This project is licensed under the Apache License 2.0.
 See the LICENSE file for details.
