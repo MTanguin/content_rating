@@ -73,7 +73,8 @@ Open your browser and visit http://localhost:5173 to view the app.
 
 # Usage
 
-The main interactive component is ContentRating.jsx. It displays the content and renders Like/Dislike buttons with real-time counters. To use different content, replace the text within the <p> tag in ContentRating.jsx.
+The main interactive component is ContentRating.jsx. It displays the content and renders Like/Dislike buttons with real-time counters. 
+To use different content, replace the text within the <p> tag in ContentRating.jsx.
 
 Customization
 
@@ -81,7 +82,9 @@ Customization
 
 
 
-Content: Update the <p> tag content in ContentRating.jsx to display your desired text.
+Content: 
+
+Update the <p> tag content in ContentRating.jsx to display your desired text.
 
 
 
